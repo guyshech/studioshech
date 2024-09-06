@@ -908,7 +908,8 @@ pre {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
-    max-width: 50%; }
+    max-width: 50%;
+    text-align: right;}
   .col-md-7 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 58.33333%;
@@ -8205,7 +8206,7 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px;
-      padding-left: 60px;} }
+      padding-left: 20px;} }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 16px;
     padding-top: 2rem;
@@ -9865,6 +9866,7 @@ textarea.form-control {
 
 .rtl-text {
             direction: rtl;
+            text-align: right;
         }
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
