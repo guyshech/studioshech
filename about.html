@@ -30,25 +30,28 @@
   </head>
   <body>
 
-	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
         <div class="row m-auto">
             <div class="col-12 w-100 text-center">
-				<a class="navbar-brand w-100" href="index.html"><img src="images/title.jpg" width="65%"; height="100px";></a>
+				<a class="navbar-brand w-100" href="index.html">
+                    <img src="images/title.jpg" class="navbar-logo" alt="Logo">
+                </a>
                 <section class="ftco-counter img" id="section-counter" style="background-image: url(images/title.jpg);" data-stellar-background-ratio="0.5">
                 </section>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="oi oi-menu"></span> Menu
+                    <span class="oi oi-menu"></span> תפריט
                 </button>
             </div>
-            <div class="col-12 w-100 text-center">
-                <div class="collapse navbar-collapse" id="ftco-nav">
+            <div class="col-12 w-100 text-center rtl-text">
+                <div class="collapse navbar-collapse" id="ftco-nav" style="margin-left:40px">
                     <ul class="navbar-nav m-auto d-flex align-items-center">
+						<li class="nav-item active"><a href="index.html" class="nav-link">עמוד הבית</a></li>
+						<li class="nav-item"><a href="about.html" class="nav-link">עלינו</a></li>
+						<li class="nav-item"><a href="classes.html" class="nav-link">סוגי השיעורים</a></li>
+						<li class="nav-item"><a href="schedule.html" class="nav-link">מערכת שעות</a></li>
                         <li class="nav-item"><a href="contact.html" class="nav-link">צרו קשר</a></li>
-                        <li class="nav-item"><a href="schedule.html" class="nav-link">מערכת שעות</a></li>
-                        <li class="nav-item"><a href="classes.html" class="nav-link">סוגי השיעורים</a></li>
-                        <li class="nav-item"><a href="about.html" class="nav-link">עלינו</a></li>
-                        <li class="nav-item active"><a href="index.html" class="nav-link">עמוד הבית</a></li>
                     </ul>
                 </div>
             </div>
@@ -509,6 +512,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+  <script src="js/schedule.js"></script>
+
   </body>
 </html>
